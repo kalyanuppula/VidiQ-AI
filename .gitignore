@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Frontend build files
+frontend/dist/
+
+# Mac system files
+.DS_Store
+
+# Video and audio datasets
+data/raw_videos/
+data/processed_videos/
+data/audio/
+
+# Large model weights
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.safetensors
+models/*.bin
+
+# Logs
+*.log
