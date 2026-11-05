@@ -1,0 +1,17 @@
+[project]
+name = "vidiq-ai"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=6.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]

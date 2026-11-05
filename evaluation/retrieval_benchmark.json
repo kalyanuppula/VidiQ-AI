@@ -1,0 +1,58 @@
+
+{
+  "video_id": "workplace_safety_demo",
+  "benchmark": [
+    {
+      "id": "Q001",
+      "question": "What safety challenges are discussed when robots and workers operate close together?",
+      "expected_evidence_ids": [
+        "transcript_000006",
+        "transcript_000007",
+        "transcript_000008"
+      ],
+      "expected_type": "transcript"
+    },
+    {
+      "id": "Q002",
+      "question": "Why might workers feel uncertain about robot co-workers?",
+      "expected_evidence_ids": [
+        "transcript_000007"
+      ],
+      "expected_type": "transcript"
+    },
+    {
+      "id": "Q003",
+      "question": "What is the research trying to prevent?",
+      "expected_evidence_ids": [
+        "transcript_000008"
+      ],
+      "expected_type": "transcript"
+    },
+    {
+       "id": "Q004",
+       "question": "What person is visible in the video?",
+      "expected_evidence_ids": [
+          "visual_000003",
+          "visual_000006",
+          "visual_000007",
+          "visual_000010",
+          "visual_000018"
+           ],
+        "expected_type": "visual"
+    },
+    {
+      "id": "Q005",
+      "question": "What organization is shown on the closing slide?",
+      "expected_evidence_ids": [
+        "visual_000029"
+      ],
+      "expected_type": "visual"
+    },
+    {
+      "id": "Q006",
+      "question": "What color is the robot's emergency stop button?",
+      "expected_evidence_ids": [],
+      "expected_type": "insufficient_evidence"
+    }
+  ]
+}

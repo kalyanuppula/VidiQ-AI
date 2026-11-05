@@ -1,0 +1,2 @@
+# Optional Apple Silicon local vision model dependencies
+mlx-vlm==0.7.11

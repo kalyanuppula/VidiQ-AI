@@ -22,10 +22,8 @@ frontend/dist/
 # Mac system files
 .DS_Store
 
-# Video and audio datasets
-data/raw_videos/
-data/processed_videos/
-data/audio/
+# All generated data and processing outputs
+data/
 
 # Large model weights
 models/*.pt
@@ -33,6 +31,9 @@ models/*.pth
 models/*.onnx
 models/*.safetensors
 models/*.bin
+models/*.keras
+models/*.h5
+models/*.mlmodel
 
 # Logs
 *.log
