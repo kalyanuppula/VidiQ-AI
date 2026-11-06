@@ -3715,7 +3715,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "chromadb", specifier = ">=1.5.9" },
+    { name = "chromadb", specifier = "==1.5.9" },
     { name = "rank-bm25", specifier = ">=0.2.2" },
     { name = "sentence-transformers", specifier = ">=6.2.0" },
 ]
